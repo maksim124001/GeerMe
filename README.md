@@ -1,5 +1,5 @@
 ![Star Banner](https://github.com/AvaloniaUI/Avalonia/assets/552074/0f7f683f-2ddd-401f-ba28-3f703cc78ee0)
-![Header](https://github.com/AvaloniaUI/Avalonia/assets/552074/d8388fc4-469e-47c5-926d-faf25233ad4e)
+![Header](![alt text](image-1.png))
 
 
 
