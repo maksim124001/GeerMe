@@ -1,4 +1,113 @@
-# GeerMe
+![Star Banner](https://github.com/AvaloniaUI/Avalonia/assets/552074/0f7f683f-2ddd-401f-ba28-3f703cc78ee0)
+![Header](https://github.com/AvaloniaUI/Avalonia/assets/552074/d8388fc4-469e-47c5-926d-faf25233ad4e)
 
-[![Логотип](data:image/jpeg;base64,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 'Логотип GitHub')]
 
+[![Telegram](https://raw.githubusercontent.com/Patrolavia/telegram-badge/master/chat.svg)](https://t.me/Avalonia)
+ [![Build Status](https://dev.azure.com/AvaloniaUI/AvaloniaUI/_apis/build/status/AvaloniaUI.Avalonia)](https://dev.azure.com/AvaloniaUI/AvaloniaUI/_build/latest?definitionId=4) [![Backers on Open Collective](https://img.shields.io/opencollective/backers/Avalonia?logo=opencollective)](#backers) [![Sponsors on Open Collective](https://img.shields.io/opencollective/sponsors/Avalonia?logo=opencollective)](#sponsors) [![GitHub Sponsors](https://img.shields.io/github/sponsors/AvaloniaUI?logo=github)](https://github.com/sponsors/AvaloniaUI) ![License](https://img.shields.io/github/license/avaloniaui/avalonia.svg)
+<br />
+[![NuGet](https://img.shields.io/nuget/v/Avalonia.svg)](https://www.nuget.org/packages/Avalonia) [![downloads](https://img.shields.io/nuget/dt/avalonia)](https://www.nuget.org/packages/Avalonia)  ![Size](https://img.shields.io/github/repo-size/avaloniaui/avalonia.svg) 
+
+## 📖 About 
+
+[Avalonia](https://avaloniaui.net) is a cross-platform UI framework for dotnet, providing a flexible styling system and supporting a wide range of platforms such as Windows, macOS, Linux, iOS, Android and WebAssembly. Avalonia is mature and production ready and is used by companies, including [Schneider Electric](https://avaloniaui.net/showcase#se), [Unity](https://avaloniaui.net/showcase#unity), [JetBrains](https://avaloniaui.net/showcase#rider) and [GitHub](https://avaloniaui.net/showcase#github).
+
+Considered by many to be the spiritual successor to WPF, Avalonia UI provides a familiar, modern development experience for XAML developers creating cross-platform applications. While Avalonia UI is [similar to WPF](https://docs.avaloniaui.net/docs/next/get-started/wpf/), it isn't a 1:1 copy, and you'll find plenty of improvements. 
+
+For those seeking a cross-platform WPF, we have created [Avalonia XPF](https://avaloniaui.net/xpf), enabling WPF applications to run on macOS and Linux with little to no code changes. Avalonia XPF is a commercial product and is licensed per-app, per-platform. 
+
+#### Blog
+To see the latest announcements and read about the state of Avalonia, check out the [Avalonia UI Blog](https://www.avaloniaui.net/Blog/).
+
+#### Breaking Changes
+You can also see what [breaking changes](https://github.com/AvaloniaUI/Avalonia/issues/3538) we have planned and what our [past breaking changes](https://github.com/AvaloniaUI/Avalonia/wiki/Breaking-Changes) have been. 
+
+#### Awesome Avalonia
+[Awesome Avalonia](https://github.com/AvaloniaCommunity/awesome-avalonia) is community-curated list of awesome Avalonia UI tools, libraries, projects and resources. Go and see what people are building with Avalonia!
+
+## 🚀 Getting Started
+
+See our [Get Started](https://avaloniaui.net/GettingStarted) guide to begin developing apps with Avalonia UI. 
+
+### Visual Studio 
+The Avalonia [Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=AvaloniaTeam.AvaloniaforVisualStudio) contains project and control templates that will help you get started, or you can use the .NET Core CLI. For a starter guide see our [documentation](https://docs.avaloniaui.net/docs/getting-started).
+
+### JetBrains Rider
+[JetBrains Rider](https://www.jetbrains.com/rider/whatsnew/?mkt_tok=eyJpIjoiTURBNU1HSmhNV0kwTUdFMiIsInQiOiJtNnU2VEc1TlNLa1ZRVkROYmdZYVpYREJsaU1qdUhmS3dxSzRHczdYWHl0RVlTNDMwSFwvNUs3VENTNVM0bVcyNFdaRmVYZzVWTTF1N3VrQWNGTkJreEhlam1hMlB4UVVWcHBGM1dNOUxoXC95YnRQdGgyUXl1YmZCM3h3d3BVWWdBIn0%3D#avalonia-support) now has official support for Avalonia.
+
+Code completion, inspections and refactorings are supported out of the box, for XAML previewer add `https://plugins.jetbrains.com/plugins/dev/14839` to plugin repositories and install [AvaloniaRider](https://github.com/ForNeVeR/AvaloniaRider) plugin.
+
+### Avalonia Packages
+Avalonia is delivered via <b>NuGet</b> package manager. You can find the packages here: https://www.nuget.org/packages/Avalonia/
+
+Use these commands in the Package Manager console to install Avalonia manually:
+```
+Install-Package Avalonia
+Install-Package Avalonia.Desktop
+```
+
+## Showcase
+[![Showcase_Banner@3x](https://github.com/AvaloniaUI/Avalonia/assets/552074/8a0af0e9-e45e-442c-830d-4af3767d6469)](https://avaloniaui.net/showcase)
+
+See what others have built with Avalonia UI on our [Showcase](https://avaloniaui.net/Showcase). We welcome submissions! 
+
+## Bleeding Edge Builds
+
+We also have a [nightly build](https://github.com/AvaloniaUI/Avalonia/wiki/Using-nightly-build-feed) which tracks the current state of master. Although these packages are less stable than the release on NuGet.org, you'll get all the latest features and bugfixes right away and many of our users actually prefer this feed!
+
+## Learning
+
+### Documentation 
+Documentation can be found at https://docs.avaloniaui.net. 
+
+### Tutorials 
+We also have a [tutorial](https://docs.avaloniaui.net/docs/getting-started/programming-with-avalonia) over there for newcomers.
+
+### Samples
+We have a [range of samples](https://github.com/AvaloniaUI/Avalonia.Samples) to help you get started.
+
+## Building and Using
+
+See the [build instructions here](Documentation/build.md).
+
+## Contributing
+
+This project exists thanks to all the people who contribute.
+<a href="https://github.com/AvaloniaUI/Avalonia/graphs/contributors"><img src="https://opencollective.com/Avalonia/contributors.svg?width=890&button=false" /></a>
+
+Please read the [contribution guidelines](CONTRIBUTING.md) before submitting a pull request.
+
+## Code of Conduct
+
+This project has adopted the code of conduct defined by the Contributor Covenant to clarify expected behavior in our community.
+For more information see the [Code of Conduct](CODE_OF_CONDUCT.md). 
+
+## Licence
+
+Avalonia is licenced under the [MIT licence](licence.md).
+
+## Donate
+
+Donating to the project is a fantastic way to thank our valued contributors for their hard work. Your donations are shared among our community and awarded for significant contributions.  
+
+If you need support see Commercial Support section below.
+
+Donate with BTC or use [Open Collective](https://opencollective.com/avalonia).
+
+**BTC**: bc1q05wx78qemgy9x6ytl5ljk2xrt00yqargyjm8gx
+
+### Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/Avalonia#backer)]
+
+<a href="https://opencollective.com/Avalonia#backers" target="_blank"><img src="https://opencollective.com/Avalonia/backers.svg?width=890"></a>
+
+## Commercial Support 
+
+We have a range of [support plans available](https://avaloniaui.net/support) for those looking to partner with the creators of Avalonia, enabling access to the best support at every step of the development process.
+
+*Please note that donations are not considered payment for commercial support agreements. Please contact us to discuss your needs first. [team@avaloniaui.net](mailto://team@avaloniaui.net)*
+
+## Avalonia XPF
+Unleash the full potential of your existing WPF apps with our cross-platform UI framework, enabling WPF apps to run on macOS and Linux without requiring expensive and risky rewrites.
+
+[![GH_Banner](https://user-images.githubusercontent.com/552074/218457976-92e76834-9e22-4e35-acfa-aa50281bc0f9.png)](https://avaloniaui.net/xpf)
