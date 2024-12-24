@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новогоднее поздравление</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #1e3c72, #2a5298);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-shadow: 0 0 20px #fff, 0 0 30px #ff1493, 0 0 40px #ff4500;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+
+        .snowflake {
+            position: absolute;
+            top: -10%;
+            font-size: 1.5rem;
+            color: #fff;
+            animation: fall 10s linear infinite;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fall {
+            to {
+                transform: translateY(110vh) rotate(360deg);
+            }
+        }
+
+        /* Создаем случайное движение снежинок */
+        .snowflake:nth-child(1) { left: 10%; animation-delay: 0s; }
+        .snowflake:nth-child(2) { left: 20%; animation-delay: 2s; }
+        .snowflake:nth-child(3) { left: 30%; animation-delay: 4s; }
+        .snowflake:nth-child(4) { left: 40%; animation-delay: 6s; }
+        .snowflake:nth-child(5) { left: 50%; animation-delay: 8s; }
+        .snowflake:nth-child(6) { left: 60%; animation-delay: 3s; }
+        .snowflake:nth-child(7) { left: 70%; animation-delay: 5s; }
+        .snowflake:nth-child(8) { left: 80%; animation-delay: 7s; }
+        .snowflake:nth-child(9) { left: 90%; animation-delay: 9s; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>С Новым годом!</h1>
+        <p>Желаем счастья, здоровья и успехов в Новом году!</p>
+        <p>Пусть мечты сбываются, а улыбки согревают ваши сердца!</p>
+    </div>
+
+    <!-- Снежинки -->
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+</body>
+</html>
